@@ -1,0 +1,318 @@
+* {margin: 0;padding: 0; background: #eee;}
+        iframe {margin: 50px auto; text-align: center;}
+        h1 {background: #250119;
+            text-align: center;
+            padding: 15px;
+            color: white;
+            text-shadow:  0 0 15px #f00;}
+            
+        .emty {height: 200px;}
+        .emtty {height: 200px; border-top: 1px solid #000;}
+            
+        .monster {width: 150px;
+                margin: 20px;
+                color: white;
+                margin: 0px auto;
+                text-align: center;
+                border: 1px solid #000;}
+        .monster img {padding: 10px 0;}
+        .monster h4 {background: #444; padding: 5px; border-top: 1px solid #000;}
+        
+        .miniboss {width: 800px;
+                margin: 20px;
+                color: white;
+                margin: 30px auto;
+                text-align: center;
+                border: 1px solid #000;
+                padding-top: 10px;}
+        .miniboss h3 {background: #222; padding: 5px 0; margin-top: 10px;}
+        .miniphase {width: 800px;
+            margin: 20px;
+            color: white;
+            margin: 30px auto;
+            text-align: center;
+            border: 1px solid #000;
+            padding-top: 10px;}
+        .miniphase h4 {background: #222; padding: 5px 0 ; margin-top: 10px;}
+        
+        .boss {width: 1000px;
+            margin: 20px;
+            color: white;
+            margin: 30px auto;
+            text-align: center;
+            border: 1px solid #000;
+            padding-top: 10px;}
+        .boss p {background: #000; border-top: 1px solid #000; padding: 5px 0 2px; margin-top: 10px;}
+        .boss h3 {background: #000; padding-bottom: 5px;}
+
+        .phase {width: 1000px;
+            margin: 20px;
+            color: white;
+            margin: 30px auto;
+            text-align: center;
+            border: 1px solid #000;
+            padding-top: 10px;}
+        .phase h4 {background: #000; padding: 5px 0 ; margin-top: 10px; border-top: 1px solid #000;}
+
+        .beeee img {width: 250px;}
+        .desert_0 {width: 350px;} /*사막골칫거리*/
+        .perforator {width: 550px;} /*퍼로레이터*/
+        .sligod {font-weight: bold; text-shadow: 0 0 10px #BA5533, 0 0 5px #ffddd1;} /*슬갓*/
+        .leech {width: 250px;}
+        .ja {width: 300px;}
+        .cry2 {width: 400px;}
+        .cry3 {width: 400px;}
+        .cry4 {width: 400px;} /*크라이오젠*/
+        .cry5 {width: 400px;}
+        .twin1-1 {width: 400px;}
+        .twin1-2 {width: 400px;} /*쌍둥이*/
+        .twin2-1 {width: 400px;} 
+        .twin2-2 {width: 400px;} 
+        .cal01 {font-weight: bold; text-shadow: 0 0 10px #ff5845, 0 0 5px #ffe6e3;}
+        .cal02 {text-shadow: 0 0 10px #ff5845, 0 0 5px #ffe6e3;}
+        .cal03 {width: 300px; text-shadow: 0 0 10px #aefffc, 0 0 5px #aefffc;} /*69-73칼라마티 그림자*/
+        .cal04 {width: 300px; text-shadow: 0 0 10px #fc7670, 0 0 5px #fc7670;}
+        .cal05 {text-shadow: 0 0 10px #e114b9, 0 0 5px #e114b9;}
+        .planmob2 {width: 200px;} /*플랜테라 잡몹*/
+        .maneat {width: 200px;} /*플랜테라 잡몹*/
+        .sharkmob {width: 250px;} /*사막상어*/
+        .leviathan {width: 1500px;} /*레비아탄*/
+        .leviathan2 {width: 1300px;} 
+        .water {width: 250px;} 
+        .gol1 {width: 400px;} /*골렘*/
+        .gol2 {width: 400px;} 
+        .sharkron {width: 250px;} /*샤크론*/
+        .astlong {font-weight: bold; text-shadow: 0 0 10px #ae4f93, 0 0 5px #fabbe8;}  /*아스트림데우스*/
+        .astmob1 {width: 200px;} 
+        .astmob2 {width: 200px;} /*아스트럼 부하들*/
+        .astmob3 {width: 200px;} 
+        .maddragon {width: 600px;} /*광신도 드래곤*/
+        .sunpillar {text-shadow: 0 0 10px #ff4e00,0 0 5px #ff9566;} /*태양기둥*/
+        .sunmob1 {width: 200px;} 
+        .sunmob2 {width: 200px;} 
+        .sunmob3 {width: 200px;} /*112~117 태양기둥 부하*/
+        .sunmob4 {width: 200px;} 
+        .sunmob5 {width: 300px;} 
+        .sunmob6 {width: 200px;} 
+        .cycpillar {text-shadow: 0 0 10px #6cffc4,0 0 5px #c7ffe9;} /*소용돌이기둥*/
+        .cycmob1 {width: 200px;} 
+        .cycmob2 {width: 200px;} 
+        .cycmob3 {width: 200px;} /*119-122 소용돌이 부하*/
+        .cycmob4 {width: 200px;} 
+        .soyonpillar {text-shadow: 0 0 10px #ff85ea,0 0 5px #ffb2f2;} /*성운기둥*/
+        .soyonmob1 {width: 200px;} 
+        .soyonmob2 {width: 200px;} 
+        .soyonmob3 {width: 200px;} /*124-127 소용돌이 부하*/
+        .soyonmob4 {width: 200px;} 
+        .starpillar {text-shadow: 0 0 10px #02c1ff,0 0 5px #8de3ff;} /*소성단기둥*/
+        .starmob1 {width: 200px;} 
+        .starmob2 {width: 200px;} 
+        .starmob3 {width: 200px;} /*129-133 소성단 부하*/
+        .starmob4 {width: 200px;} 
+        .starmob5 {width: 250px;} 
+        .moon {font-weight: bold; text-shadow: 0 0 10px #5CFAFF,0 0 5px #5CFAFF;}  /*문로드*/
+        .moon img {width: 900px;} 
+        .trueeye {width: 250px;} /*진정한 눈*/
+        .unholy1 {width: 400px;} 
+        .unholy2 {width: 400px;} /*137-139 부정 수호자*/
+        .unholy3 {width: 400px;} 
+        .drako {width: 350px;} /*드라코닉*/
+        .unholygod1 {font-weight: bold; text-shadow: 0 0 10px #E60,0 0 5px #FFFFE0; color: #fff;}  /*부정여신*/
+        .evileat {width: 350px;} /*경멸먹자*/
+        .olddshark {width: 250px;} /*늙은 공작 부하*/
+        .godeat1 {font-weight: bold; color: #fff; text-shadow:0 0 10px #d4a6ff,0 0 5px #8400ff;}  /*신먹자*/
+        .godeat2 {text-shadow: 0 0 10px #d4a6ff,0 0 5px #8400ff;}  /*신먹자2*/
+        .spacede {width: 450px;} /*우주 수호*/
+        .dragon {font-weight: bold; text-shadow:0 0 10px #E28900,0 0 5px #E28900;}  /*야론*/
+        .oldwarm {font-weight: bold; text-shadow:0 0 10px #4166f5,0 0 5px #4166f5;}  /*고룡*/
+        .abyssfish {width: 400px;} /*심해장어*/
+        .Destroyer {width: 1500px;}
+        
+        
+        .exo {width: 1500px; font-weight: bold; text-shadow: 0 0 10px #7FFFD4, 0 0 5px #cfffef;}  /*엑소메카*/
+        .exo p {background: linear-gradient(to right, #737c8b, #000, #737c8b)}  /*엑소메카*/
+        .exo h3 {background: linear-gradient(to right, #737c8b, #000, #737c8b)}
+        .exoeye1 {font-weight: bold;text-shadow:0 0 10px #e27500,0 0 5px #e27500;}  /*사냥눈1*/
+        .exoeye1-2 {color: #fff; text-shadow:0 0 10px #e27500,0 0 5px #e27500;} /*사냥눈 2페*/
+        .exoeye2 {font-weight: bold; text-shadow:0 0 10px #26a300,0 0 5px #26a300;}  /*사냥눈2*/
+        .exoeye2-2 {color: #fff; text-shadow:0 0 10px #26a300,0 0 5px #26a300;} /*사냥눈 2페*/
+        .exoborn {font-weight: bold; text-shadow:0 0 10px #0040e3,0 0 5px #0040e3;}  /*엑소 척추*/
+        .exobody {width: 1500px; font-weight: bold; color: #fff; text-shadow:0 0 10px #e30000,0 0 5px #e30000;}  /*병기*/
+        .exobody2 {width: 1500px; text-shadow:0 0 10px #e30000,0 0 5px #e30000;}  /*병기 2페*/
+        .exoweapon1 {width: 350px;} /*병기 무기*/
+        .exoweapon2 {width: 350px;} /*병기 무기*/
+        .exoweapon3 {width: 350px;} /*병기 무기*/
+        .exoweapon4 {width: 350px;} /*병기 무기*/
+        .exoweapon5 {width: 450px;} /*병기 무기*/
+        .arrgos {font-weight: bold; text-shadow:0 0 10px #33eeff, 0 0 5px #9ef7ff;}
+        
+        
+        .truecal1 {font-weight: bold; color: #fff; text-shadow:0 0 10px #ff1a00,0 0 5px #CC0000;}
+        .truecal1 p {background-image: linear-gradient(to right, #300000, #000000, #300000)}  /*칼라미*/
+        .truecal1 h3 {background-image: linear-gradient(to right, #300000, #000000, #300000)}  /*칼라미*/
+        .truecal2 {text-shadow:0 0 10px #ff1a00,0 0 5px #CC0000;}  /*칼라미*/
+        .truecal3 {text-shadow:0 0 10px #ff1a00,0 0 5px #CC0000;}  /*칼라미 2페*/
+        .truecal4 {width: 400px; color: #fff; text-shadow: 0 0 10px #73ffff,0 0 5px #b6ffff;}  /*트로피*/
+        .truecal5 {width: 400px; color: #fff; text-shadow: 0 0 10px #ff2cf0,0 0 5px #ff91f7;}  /*클리즘*/
+        .truecal6 {width: 300px; color: #fff; text-shadow: 0 0 10px #ff0000,0 0 5px #ff8080;}  /*소울시커*/
+        .truecal7 {width: 800px; color: #fff; text-shadow: 0 0 10px #000,0 0 10px #000;}  /*묘지기*/
+
+        .bone1 {width: 230px;}
+        .bone2 {width: 230px;} /*해골병사들*/
+        .bone3 {width: 230px;}
+        .brimling {} /*유황*/
+        .skull_m {width: 230px;} /*저주 해골*/
+        
+        
+        .googod {font-weight: bold; text-shadow:0 0 10px #fff,0 0 5px #555,0 0 5px #fff;color: #000;} /*구즈마*/
+        .googod p {background: linear-gradient(90deg, rgba(171,171,171,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(171,171,171,1) 100%);}
+        .googod h3 {background: linear-gradient(90deg, rgba(171,171,171,1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(171,171,171,1) 100%);}
+        .goododmob1 {text-shadow:0 0 10px #b52a24,0 0 5px #ff9f9b,0 0 5px #ff9f9b; margin: 100px auto;}
+        .goododmob2 {text-shadow:0 0 10px #fdf0ff,0 0 5px #ad00ff,0 0 5px #b100cc; margin: 100px auto;}
+        .goododmob3 {text-shadow:0 0 10px #eb90d1,0 0 5px #94fff0,0 0 10px #eb90d1;}  /*구즈마 부하*/
+        .goododmob4 {text-shadow:0 0 10px #fff6a3,0 0 5px #110b20,0 0 10px #fff6a3; margin: 100px auto;}
+        .goododmob5 {text-shadow:0 0 10px #9870b0,0 0 5px #F0FFFF,0 0 5px #9870b0; margin: 100px auto;}
+
+
+        .voidgod {font-weight: bold; text-shadow:0 0 10px #ff0a0a,0 0 5px #ff0a0a,0 0 5px #ff0a0a;color: #fff;} /*공허신*/
+        .voidgod img {width: 1000px;}
+        .voidgod p {background: linear-gradient(90deg, rgba(255, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(36, 248, 255, 1) 100%);}
+        .voidgod h3 {background: linear-gradient(90deg, rgba(255, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(36, 248, 255, 1) 100%);}
+        .voidgod2 {font-weight: bold; text-shadow:0 0 10px #a800ad,0 0 5px #a800ad,0 0 5px #ca00d1;color: #fff;} 
+
+
+        .lightgod {font-weight: bold; text-shadow:0 0 10px #fff,0 0 5px #575757,0 0 5px #575757;color: #fff;} /*이름없서 신*/
+        .lightgod p {background: linear-gradient(90deg, rgba(245, 249, 236, 1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(245, 249, 236, 1) 100%);}
+        .lightgod h3 {background: linear-gradient(90deg, rgba(245, 249, 236, 1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(245, 249, 236, 1) 100%);}
+        .lightgod2 {font-weight: bold; text-shadow:0 0 10px #fff,0 0 5px #575757,0 0 5px #575757;color: #fff;}
+        .lightgod2 img {width: 800px;} 
+        .lightgod2 h4 {background: linear-gradient(90deg, rgba(245, 249, 236, 1) 0%, rgba(255,255,255,1) 30%, rgba(255,255,255,1) 70%, rgba(245, 249, 236, 1) 100%);}
+
+
+ /* 기본 패딩 : 10px */
+section .slime {width: 500px; margin: 0 auto; display: flex; margin: 0 auto;}
+section .slime monster {margin: 0;}
+section .monster .blueslime {padding: 14px 0;}
+
+section .eater {width: 500px; margin: 0 auto; display: flex; margin: 0 auto;}
+section .monster .souleater {padding: 14px 0;}
+
+section .bees {width: 500px; margin: 0 auto; display: flex; margin: 0 auto;}
+section .monster .nomalbee {padding: 14px 0;}
+
+section .skulls1 {width: 600px; margin: 0 auto; display: flex; margin: 0 auto; margin-bottom: 30px;}
+section .skulls2 {width: 600px; margin: 0 auto; display: flex; margin: 0 auto; margin-bottom: 30px;}
+section .skulls1 .bone1 img {padding: 12px 0;}
+
+section .walll {width: 500px; margin: 0 auto; display: flex; margin: 0 auto;}
+section .walll .Leech {padding: 24px 0;}
+
+section .bloodsea {width: 600px; margin: 0 auto; display: flex; margin: 0 auto; margin-bottom: 30px;}
+section .monster .eyefish {padding: 30px 0;}
+section .monster .blooshark {padding: 14px 0;}
+
+section .hollowslime {width: 600px; margin: 0 auto; display: flex; margin: 0 auto;}
+section .monster .boisli {padding: 16px 0;}
+section .monster .calsli {padding: 14px 0;}
+
+section .crycry {width: 900px; margin: 0 auto; display: flex; margin-bottom: 30px;}
+section .crycry2 {width: 900px; margin: 0 auto; display: flex;}
+.cry2,.cry3, .cry4, .cry5 {margin: 0 auto;}
+
+section .icemob {width: 500px; margin: 0 auto; display: flex;}
+section .monster .icegol {padding: 25px 0;}
+
+section .evepas1 {width: 900px; margin: 0 auto; display: flex; margin-bottom: 30px;}
+section .evepas2 {width: 900px; margin: 0 auto; display: flex;}
+.twin1-1, .twin1-2, .twin2-1, .twin2-2 {margin: 0 auto;}
+.twin2-1 img {padding: 18px; 0}
+.twin2-2 img {padding: 15px; 0}
+
+section .skeleamor {width: 600px; margin: 0 auto; display: flex;}
+section .monster .skeles01 {padding: 14px 0;}
+section .monster .skeles03 {padding: 15px 0;}
+
+section .goblins {width: 600px; margin: 0 auto; display: flex;}
+section .monster .go1 {padding: 21px 0;}
+section .monster .go2 {padding: 19px 0;}
+
+section .calfake {width: 800px; margin: 0 auto; display: flex; margin-bottom: 30px;}
+section .monster .caltrophe1 {padding: 15px 0;}
+
+section .monster .maneatimg {padding: 17px 0 16px 0px;}
+
+section .spacemob1 {width: 800px; margin: 0 auto; display: flex; margin-top: 30px;}
+section .monster .nova {padding: 12px 0;}
+section .monster .aries {padding: 18px 0;}
+section .monster .astra {padding: 29px 0;}
+
+section .golempart {width: 900px; margin: 0 auto; display: flex;}
+section .phase .golhead {padding: 53.5px 0;}
+.gol1, .gol2 {margin: 0 auto;}
+
+section .plagBee {width: 500px; margin: 0 auto; display: flex;}
+section .monster .beedron {padding: 20px 0;}
+
+section .batmob {width: 600px; margin: 0 auto; display: flex;}
+section .monster .we {padding: 27px 0;}
+section .monster .dra {padding: 22px 0;}
+
+section .astast {width: 800px; margin: 0 auto; display: flex;}
+section .monster .mantis {padding: 18px 0;}
+section .monster .culex {padding: 27px 0;}
+
+section .luuuna {width: 500px; margin: 0 auto; display: flex; margin-bottom :30px;}
+section .monster .devo {padding: 11px 0;}
+
+section .sun {width: 1150px; margin: 0 auto; display: flex; margin-bottom :30px;}
+section .monster .selen {padding: 15px 0;}
+section .monster .drakan {padding: 15px 0;}
+section .monster .draire {padding: 19px 0;}
+section .monster .corite {padding: 20px 0;}
+
+
+section .vorteex {width: 900px; margin: 0 auto; display: flex;}
+section .monster .texian {padding: 15px 0;}
+section .monster .alhornet {padding: 23px 0;}
+
+
+section .nebula {width: 900px; margin: 0 auto; display: flex;}
+section .monster .brainsuck {padding: 22px 0;}
+section .monster .evobeast {padding: 18px 0;}
+section .monster .nefloater {padding: 16px 0;}
+
+
+section .starpill {width: 900px; margin: 0 auto; display: flex; margin-bottom :30px;}
+section .monster .stargaz {padding: 18px 0;}
+section .monster .starpop {padding: 28px 0;}
+section .monster .starcell {padding: 21px 0;}
+
+
+section .guardians {width: 900px; margin: 0 auto; display: flex;}
+section .phase .guadefen {padding: 11px 0;}
+.unholy1, .unholy2 {margin: 0 auto;}
+
+
+section .abesseilmob {width: 700px; margin: 0 auto; display: flex;}
+section .monster .longfish {padding: 41px 0;}
+
+section .aresweapon {width: 1500px; margin: 0 auto; display: flex; margin-bottom :30px;}
+section .monster .arestes {padding: 19px 0;}
+section .monster .aresflame {padding: 19px 0;}
+section .monster .aresnuke {padding: 13px 0;}
+
+
+section .treucel {width: 900px; margin: 0 auto; display: flex;
+margin-bottom :30px;}
+section .monster .calpun {padding: 21px 0;}
+.truecal6 {margin-bottom :30px}
+
+
+
+section .guop {width: 600px; margin: 0 auto; display: flex;}
+section .monster .mm {padding: 16px 0;}
+section .guop {width: 600px; margin: 0 auto; display: flex;}
+section .monster .mm {padding: 16px 0;}
+
+
+
