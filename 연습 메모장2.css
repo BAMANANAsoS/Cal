@@ -86,6 +86,7 @@
         .astmob1 {width: 200px;} 
         .astmob2 {width: 200px;} /*아스트럼 부하들*/
         .astmob3 {width: 200px;} 
+        .Astrageldon {font-weight: bold; text-shadow: 0 0 10px #C300FF, 0 0 5px #A00;}
         .maddragon {width: 600px;} /*광신도 드래곤*/
         .sunpillar {text-shadow: 0 0 10px #ff4e00,0 0 5px #ff9566;} /*태양기둥*/
         .sunmob1 {width: 200px;} 
